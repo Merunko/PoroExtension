@@ -1,0 +1,21 @@
+identifiers:
+  example1:
+    commands:
+      "1":
+        cmd: "commandhere"
+        chance: 10
+      "2":
+        cmd: "commandhere"
+        chance: 50
+      "3":
+        cmd: "commandhere"
+        chance: 40
+
+  example2:
+    commands:
+      "1":
+        cmd: "commandhere"
+        chance: 80
+      "2":
+        cmd: "commandhere"
+        chance: 20

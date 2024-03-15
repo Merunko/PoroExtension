@@ -1,0 +1,22 @@
+name: PoroExtension
+version: '1.2'
+main: me.merunko.holocraft.poroextension.PoroExtension
+api-version: '1.20'
+authors: [Merunko]
+description: Just extensioin for multi purpose function.
+
+commands:
+  poro:
+    permission: poro.*
+
+permissions:
+  poro.*:
+    description: Permission for all Poro commands.
+    default: op
+    children:
+      poro.reload:
+        description: Reload the plugin.
+      poro.commandgatcha.run:
+        description: Run command gatcha.
+      poro.fill.container:
+        description: Run fill container command.

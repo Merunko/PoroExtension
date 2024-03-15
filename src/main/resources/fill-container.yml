@@ -1,0 +1,12 @@
+identifiers:
+  normal:
+    slot:
+      '0':
+        item: GRASS_BLOCK
+        amount: 3
+
+  nether:
+    slot:
+      '0':
+        item: QUARTZ
+        amount: 3
