@@ -2,12 +2,17 @@ package me.merunko.holocraft.poroextension.color;
 
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.minimessage.MiniMessage;
+
 import org.bukkit.command.CommandSender;
 
 public class PoroColor {
 
     public void sendMessage(CommandSender sender, String message) {
         sender.sendMessage(translate("{DB9444>}⟢ PoroExtension ⟣ &l| {<AEDB44}" + message));
+    }
+
+    public void sendMessageNoPluginName(CommandSender sender, String message) {
+        sender.sendMessage(translate(message));
     }
 
     public Component translate(String text) {
